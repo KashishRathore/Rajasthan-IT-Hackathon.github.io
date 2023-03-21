@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(#ffedd8, #f3d5b5);
+}
+
+.firstsection {
+    background: rgba(0, 0, 0, 0.7)url('https://www.agrivi.com/wp-content/uploads/2014/10/wepik-photo-mode-2022722-16315.jpeg');
+    background-size: cover;
+    background-blend-mode: hard-light;
+    height: 700px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: sticky;
+    background:white;
+}
+
+.nav-list-v-class-resp {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+    align-items: center;
+    position: sticky;
+}
+
+.logo {
+    align-items: flex-start;
+}
+
+.logo img {
+    border: 2px solid #1f0f0f;
+    border-radius: 50%;
+}
+
+.nav-list-v-class-resp li {
+    margin: 0 20px;
+    list-style-type: none;
+}
+
+.nav-list-v-class-resp li a {
+    text-decoration: none;
+    color: #9BA0A7;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-list-v-class-resp li a:hover {
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+body {
+    margin: 30px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:17px;
+    padding:15px;
+    font-weight: bold;
+}
+.heading{
+    background: radial-gradient(#ade8f4,#90e0ef,#023e8a);
+    color: #1f0f0f; 
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    padding:30px 0;
+    margin:30px 0;
+    border-radius:30px;
+
+}
+.container{
+    margin: 2% 0;
+}
+.container p{
+    margin: 5% 0;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.contact li {
+    list-style: none;
+    margin: 0 30px 30px 15px;
+}
+.contact li a {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 1.5em;
+    color: #C3889C;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.5s;
+    margin: 5px;
+}
+.contact li a:hover {
+    background: #EDEDD1;
+}
+.contact li a img:hover {
+    color: black;
+}
+.wikipedia img {
+    width: 50px;
+}
+.twitter img {
+    width: 40px;
+}
+.facebook img {
+    width: 20px;
+}
+.linkedin img {
+    width: 60px;
+}
+.instagram img {
+    width: 50px;
+}
+.footer{
+    margin:150px 0;
+}
+.footer-element {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100px;
+}
+.footer-element li {
+    margin: 0 10px;
+    list-style-type: none;
+    color: #dad7cd;
+}
+.footer-element li a {
+    text-decoration: none;
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(215, 211, 211);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer-element li a:hover {
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+.Copyright {
+    background-color: #8b1b1b;
+    height: 40px;
+    padding: 20px;
+    color: rgb(185, 247, 185);
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    font-family: cursive;
+    
+}
+
+.footer-background {
+    background: linear-gradient(45deg, #ab3b31, #b15844, #da997b);
+}

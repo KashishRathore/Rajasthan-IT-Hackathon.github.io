@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7)url('http://wallpapercave.com/wp/wp1886337.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 200px;
+    margin-top: 0;
+    position: static;   
+}
+.nav-list-v-class-resp {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+    width: 80%;
+    align-items: center;
+}
+.logo {
+    width: 10%;
+    align-items: flex-start;
+}
+.logo img {
+    width: 99%;
+    border: 2px solid #985454;
+    border-radius: 50%;
+}
+.nav-list-v-class-resp li {
+    margin: 0 40px;
+    list-style-type: none;
+}
+.nav-list-v-class-resp li a {
+    text-decoration: none;
+    color: #313425;
+    font-size: 20px;
+    font-weight: 700;
+    font-family:  "Brush Script MT", cursive;;
+    border-radius: 10px;
+}
+.nav-list-v-class-resp li a:hover {
+    color: #bcce92;
+    border-bottom: 1px solid #c8d9a0;
+    padding: 3px;
+}
+.nav-list-v-class-resp li a .search-bar {
+    width: 20%;
+}
+.search-bar input {
+    width: 150px;
+}
+.search-bar button {
+    margin: 5px;
+}
+.search-btn {
+    border: 1px solid #a68a64;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+    background: none;
+    color: rgb(255, 255, 255);
+}
+.search-btn:hover {
+    border-color: #936639;
+    box-shadow: 0 0.5em 0.5em -0.4em #936639;
+}
+
+.rightnav {
+    width: 30%;
+    text-align: right;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.search-btn {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    background: none;
+    color: white;
+}
+
+#text-area {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.links {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: rows;
+    margin: 10%;
+    margin-left: 40%
+}
+
+.links li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.links li a {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: rows;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 1.5em;
+    color: #C3889C;
+    text-decoration: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.5s;
+    margin: 5px;
+}
+
+.links li a:hover {
+    background: #EDEDD1;
+}
+
+.links li a img:hover {
+
+    color: black;
+}
+
+.youtube img {
+    width: 80px;
+}
+
+.twitter img {
+    width: 50px;
+}
+
+.linkedin img {
+    width: 40px;
+}
+
+.instagram img {
+    width: 40px;
+}
+.github img{
+    width: 60px;
+}
+
+
+.details {
+    width: 150%;
+}
+
+.details li {
+    color: white;
+    margin: 70px;
+    font-size: 25px;
+    list-style: none;
+}
+
+.address img {
+    width: 40px;
+    height: 42px;
+    margin: 0 30px;
+
+}
+
+.mail img {
+    width: 50px;
+    margin: 0 10px;
+    color: white;
+}
+
+.phone img {
+    width: 40px;
+    margin: 0 30px;
+}
+
+.time img {
+    width: 40px;
+    margin: 0 30px;
+}
+
+
+.heading {
+    text-align: center;
+}
+
+.contact {
+    width: 65%;
+    width: 550px;
+    border: 0px solid black;
+    background: #fff;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+.contact span {
+    font-size: 20px;
+    color: #ACC6C5;
+    margin-bottom: 15px;
+}
+
+.headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.headings input {
+    width: 400px;
+    ;
+    padding: 15px;
+    margin: 8px;
+    font-size: 15px;
+
+}
+
+.headings textarea {
+    padding: 15px;
+    margin: 8px;
+    width: 400px;
+}
+
+.send {
+    border: 0 solid white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 20px 5px;
+    font-size: 15px;
+    color: white;
+    background: blue;
+}
+.send:hover{
+    border: 0 solid rgb(207, 194, 194);
+    border-radius: 15px;
+    color: white;
+    background: rgba(0, 110, 255, 0.342);
+}
+
+.two {
+    display: flex;
+
+}
+
+.all {
+    width: 35%;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width:700px) {
+    .navbar{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: static;
+    }
+    .nav-list-v-class-resp{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .logo img{
+        width:60px;
+    }
+
+    .rightnav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        width: 20%;
+    }
+
+    .logo {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        margin-left: 15%;
+    }
+
+    .links {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: rows;
+        margin: 25%;
+        margin-left: 30%;
+    }
+
+    .links li {
+        list-style: none;
+        margin: 0 8px;
+    }
+
+    .links li a {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 5px;
+    }
+
+    .youtube img {
+        width: 60px;
+    }
+
+    .twitter img {
+        width: 50px;
+    }
+
+    .linkedin img {
+        width: 27px;
+    }
+
+    .instagram img {
+        width: 30px;
+    }
+
+    .github img{
+        width: 40px;
+    }
+
+    .details {
+        width: 70%;
+    }
+
+    .details li {
+        color: white;
+        margin-right: 300px;
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        flex-direction: center;
+
+    }
+
+    .contact {
+
+        width: 450px;
+        font-size: 40px;
+        color: white;
+        margin-left: 70px;
+        justify-content: center;
+
+    }
+
+    .two {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .all {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login {
+
+        margin: 2px;
+        margin-left: 35px;
+
+    }
+
+}
